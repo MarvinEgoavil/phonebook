@@ -1,0 +1,58 @@
+[Sat Mar 06 01:35:52.245354 2021] [mpm_winnt:notice] [pid 15840:tid 612] AH00455: Apache/2.4.25 (Win32) OpenSSL/1.0.2k PHP/7.1.1 configured -- resuming normal operations
+[Sat Mar 06 01:35:52.246346 2021] [mpm_winnt:notice] [pid 15840:tid 612] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Sat Mar 06 01:35:52.246346 2021] [core:notice] [pid 15840:tid 612] AH00094: Command line: 'C:\\laragon\\bin\\apache\\httpd-2.4.25-win32-VC14\\bin\\httpd -d C:/laragon/bin/apache/httpd-2.4.25-win32-VC14'
+[Sat Mar 06 01:35:52.248373 2021] [mpm_winnt:notice] [pid 15840:tid 612] AH00418: Parent: Created child process 7936
+[Sat Mar 06 01:35:52.832462 2021] [mpm_winnt:notice] [pid 7936:tid 596] AH00354: Child: Starting 64 worker threads.
+[Sat Mar 06 01:36:11.613514 2021] [authz_core:error] [pid 7936:tid 1288] [client ::1:50852] AH01630: client denied by server configuration: C:/laragon/etc/apps/phpMyAdmin
+[Sat Mar 06 01:36:15.389024 2021] [authz_core:error] [pid 7936:tid 1288] [client ::1:50852] AH01630: client denied by server configuration: C:/laragon/etc/apps/phpMyAdmin
+[Sat Mar 06 01:36:31.747593 2021] [authz_core:error] [pid 7936:tid 1288] [client ::1:50853] AH01630: client denied by server configuration: C:/laragon/etc/apps/phpMyAdmin
+[Sat Mar 06 01:36:36.403747 2021] [authz_core:error] [pid 7936:tid 1288] [client ::1:50853] AH01630: client denied by server configuration: C:/laragon/etc/apps/phpMyAdmin
+[Sat Mar 06 01:37:56.722968 2021] [authz_core:error] [pid 7936:tid 1288] [client ::1:50864] AH01630: client denied by server configuration: C:/laragon/etc/apps/phpMyAdmin
+[Sat Mar 06 01:42:07.999521 2021] [authz_core:error] [pid 7936:tid 1288] [client ::1:50947] AH01630: client denied by server configuration: C:/laragon/etc/apps/phpMyAdmin
+[Sat Mar 06 01:44:21.090114 2021] [authz_core:error] [pid 7936:tid 1288] [client ::1:50963] AH01630: client denied by server configuration: C:/laragon/etc/apps/phpMyAdmin
+[Sun Mar 07 10:54:23.471157 2021] [core:warn] [pid 24372:tid 524] AH00098: pid file C:/laragon/bin/apache/httpd-2.4.25-win32-VC14/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Mar 07 10:54:23.651674 2021] [mpm_winnt:notice] [pid 24372:tid 524] AH00455: Apache/2.4.25 (Win32) OpenSSL/1.0.2k PHP/7.1.1 configured -- resuming normal operations
+[Sun Mar 07 10:54:23.651674 2021] [mpm_winnt:notice] [pid 24372:tid 524] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Sun Mar 07 10:54:23.651674 2021] [core:notice] [pid 24372:tid 524] AH00094: Command line: 'C:\\laragon\\bin\\apache\\httpd-2.4.25-win32-VC14\\bin\\httpd -d C:/laragon/bin/apache/httpd-2.4.25-win32-VC14'
+[Sun Mar 07 10:54:23.653669 2021] [mpm_winnt:notice] [pid 24372:tid 524] AH00418: Parent: Created child process 21756
+[Sun Mar 07 10:54:24.406654 2021] [mpm_winnt:notice] [pid 21756:tid 668] AH00354: Child: Starting 64 worker threads.
+[Sun Mar 07 13:07:25.219057 2021] [mpm_winnt:crit] [pid 21756:tid 668] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sun Mar 07 13:07:27.229553 2021] [mpm_winnt:notice] [pid 21756:tid 668] AH00364: Child: All worker threads have exited.
+[Sun Mar 07 22:23:12.237398 2021] [core:warn] [pid 4392:tid 588] AH00098: pid file C:/laragon/bin/apache/httpd-2.4.25-win32-VC14/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Mar 07 22:23:12.416675 2021] [mpm_winnt:notice] [pid 4392:tid 588] AH00455: Apache/2.4.25 (Win32) OpenSSL/1.0.2k PHP/7.1.1 configured -- resuming normal operations
+[Sun Mar 07 22:23:12.416675 2021] [mpm_winnt:notice] [pid 4392:tid 588] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Sun Mar 07 22:23:12.416675 2021] [core:notice] [pid 4392:tid 588] AH00094: Command line: 'C:\\laragon\\bin\\apache\\httpd-2.4.25-win32-VC14\\bin\\httpd -d C:/laragon/bin/apache/httpd-2.4.25-win32-VC14'
+[Sun Mar 07 22:23:12.418669 2021] [mpm_winnt:notice] [pid 4392:tid 588] AH00418: Parent: Created child process 7288
+[Sun Mar 07 22:23:13.140776 2021] [mpm_winnt:notice] [pid 7288:tid 560] AH00354: Child: Starting 64 worker threads.
+[Mon Mar 08 00:12:39.803516 2021] [mpm_winnt:notice] [pid 4392:tid 588] AH00428: Parent: child process 7288 exited with status 1073807364 -- Restarting.
+[Mon Mar 08 00:12:40.061825 2021] [mpm_winnt:notice] [pid 4392:tid 588] AH00455: Apache/2.4.25 (Win32) OpenSSL/1.0.2k PHP/7.1.1 configured -- resuming normal operations
+[Mon Mar 08 00:12:40.062822 2021] [mpm_winnt:notice] [pid 4392:tid 588] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Mon Mar 08 00:12:40.062822 2021] [core:notice] [pid 4392:tid 588] AH00094: Command line: 'C:\\laragon\\bin\\apache\\httpd-2.4.25-win32-VC14\\bin\\httpd -d C:/laragon/bin/apache/httpd-2.4.25-win32-VC14'
+[Mon Mar 08 00:12:40.063821 2021] [mpm_winnt:notice] [pid 4392:tid 588] AH00418: Parent: Created child process 12200
+[Mon Mar 08 00:12:40.077782 2021] [mpm_winnt:crit] [pid 4392:tid 588] AH00419: master_main: create child process failed. Exiting.
+[Thu Mar 11 00:51:24.150879 2021] [mpm_winnt:notice] [pid 4652:tid 596] AH00455: Apache/2.4.25 (Win32) OpenSSL/1.0.2k PHP/7.1.1 configured -- resuming normal operations
+[Thu Mar 11 00:51:24.152112 2021] [mpm_winnt:notice] [pid 4652:tid 596] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Thu Mar 11 00:51:24.152112 2021] [core:notice] [pid 4652:tid 596] AH00094: Command line: 'C:\\laragon\\bin\\apache\\httpd-2.4.25-win32-VC14\\bin\\httpd -d C:/laragon/bin/apache/httpd-2.4.25-win32-VC14'
+[Thu Mar 11 00:51:24.155867 2021] [mpm_winnt:notice] [pid 4652:tid 596] AH00418: Parent: Created child process 19276
+Apache server interrupted...
+021] [mpm_winnt:notice] [pid 19276:tid 596] AH00354: Child: Starting 64 worker threads.
+[Thu Mar 11 00:52:00.912122 2021] [authz_core:error] [pid 19276:tid 1236] [client ::1:62872] AH01630: client denied by server configuration: C:/laragon/etc/apps/phpMyAdmin
+[Thu Mar 11 01:09:51.814795 2021] [authz_core:error] [pid 19276:tid 1236] [client ::1:63055] AH01630: client denied by server configuration: C:/laragon/etc/apps/phpMyAdmin
+[Thu Mar 11 03:19:55.934186 2021] [mpm_winnt:notice] [pid 4652:tid 596] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Mar 11 03:19:57.944660 2021] [mpm_winnt:notice] [pid 19276:tid 596] AH00364: Child: All worker threads have exited.
+[Thu Mar 11 03:20:13.217404 2021] [core:warn] [pid 23312:tid 604] AH00098: pid file C:/laragon/bin/apache/httpd-2.4.25-win32-VC14/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Mar 11 03:20:13.463773 2021] [mpm_winnt:notice] [pid 23312:tid 604] AH00455: Apache/2.4.25 (Win32) OpenSSL/1.0.2k PHP/7.1.1 configured -- resuming normal operations
+[Thu Mar 11 03:20:13.463773 2021] [mpm_winnt:notice] [pid 23312:tid 604] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Thu Mar 11 03:20:13.463773 2021] [core:notice] [pid 23312:tid 604] AH00094: Command line: 'C:\\laragon\\bin\\apache\\httpd-2.4.25-win32-VC14\\bin\\httpd -d C:/laragon/bin/apache/httpd-2.4.25-win32-VC14'
+[Thu Mar 11 03:20:13.466737 2021] [mpm_winnt:notice] [pid 23312:tid 604] AH00418: Parent: Created child process 23436
+Apache server interrupted...
+021] [mpm_winnt:notice] [pid 23436:tid 568] AH00354: Child: Starting 64 worker threads.
+[Thu Mar 11 03:24:08.421204 2021] [authz_core:error] [pid 23436:tid 1268] [client ::1:64210] AH01630: client denied by server configuration: C:/laragon/etc/apps/phpMyAdmin
+[Thu Mar 11 03:26:40.563932 2021] [mpm_winnt:notice] [pid 23312:tid 604] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Mar 11 03:26:42.591910 2021] [mpm_winnt:notice] [pid 23436:tid 568] AH00364: Child: All worker threads have exited.
+[Thu Mar 11 03:29:41.827614 2021] [core:warn] [pid 21248:tid 584] AH00098: pid file C:/laragon/bin/apache/httpd-2.4.25-win32-VC14/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Mar 11 03:29:42.081908 2021] [mpm_winnt:notice] [pid 21248:tid 584] AH00455: Apache/2.4.25 (Win32) OpenSSL/1.0.2k PHP/7.1.1 configured -- resuming normal operations
+[Thu Mar 11 03:29:42.081908 2021] [mpm_winnt:notice] [pid 21248:tid 584] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Thu Mar 11 03:29:42.081908 2021] [core:notice] [pid 21248:tid 584] AH00094: Command line: 'C:\\laragon\\bin\\apache\\httpd-2.4.25-win32-VC14\\bin\\httpd -d C:/laragon/bin/apache/httpd-2.4.25-win32-VC14'
+[Thu Mar 11 03:29:42.085202 2021] [mpm_winnt:notice] [pid 21248:tid 584] AH00418: Parent: Created child process 18028
+[Thu Mar 11 03:29:42.663263 2021] [mpm_winnt:notice] [pid 18028:tid 596] AH00354: Child: Starting 64 worker threads.
