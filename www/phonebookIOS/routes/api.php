@@ -25,4 +25,6 @@ Route::post('/user', 'UserController@store');
 
 Route::middleware('auth:sanctum')->group(function () {
 	Route::apiResource('contact', 'ContactController');
+	Route::post('/updatePassword/{user}', 'UserController@update');
+	Route::get('/delete', 'UserController@destroy');
 });
